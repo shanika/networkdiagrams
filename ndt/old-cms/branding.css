@@ -1,0 +1,25 @@
+#outer {
+	background-color: #59595b;
+}
+#footer {
+	background-color: #59595b;
+}
+#footer_content {
+	color: white;
+}
+#footer_content a {
+	color: gray;
+}
+#footer_content a:hover {
+	color: silver;
+}
+hr.mako {
+	border-color: #EBD04F !important;
+}
+#masthead {
+/*	background: url(../images/makologo_01.png) no-repeat;*/
+}
+#main {
+/*	background: url(../images/makologo_02.png) no-repeat;*/
+}
+

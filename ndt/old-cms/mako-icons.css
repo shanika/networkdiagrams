@@ -1,0 +1,260 @@
+@font-face {
+	font-family: 'mako-extras';
+	src:url('fonts/mako-extras.eot');
+	src:url('fonts/mako-extras.eot?#iefix') format('embedded-opentype'),
+		url('fonts/mako-extras.svg#mako-extras') format('svg'),
+		url('fonts/mako-extras.woff') format('woff'),
+		url('fonts/mako-extras.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'mako-extras';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	font-size: 1.3333333333333333em;
+}
+a [class^="iconm-"], a [class*=" iconm-"] {
+  display: inline-block;
+  text-decoration: none !important;
+  color: #414143 !important;
+  font-size: 1.3333333333333333em;
+}
+/* makes the font 33% larger relative to the icon container */
+.iconm-large:before {
+  vertical-align: top;
+  font-size: 1.4444444444444444em;
+}
+.btn [class^="iconm-"], .btn [class*=" iconm-"] {
+  /* keeps button heights with and without icons the same */
+
+  line-height: .9em;
+}
+li [class^="iconm-"], li [class*=" iconm-"] {
+  display: inline-block;
+  width: 1.25em;
+  text-align: center;
+  font-size: 1.3333333333333333em;
+}
+li .iconm-large[class^="iconm-"], li .iconm-large[class*=" iconm-"] {
+  /* 1.5 increased font size for iconm-large * 1.25 width */
+
+  width: 1.875em;
+}
+li[class^="iconm-"], li[class*=" iconm-"] {
+  margin-left: 0;
+  list-style-type: none;
+}
+li[class^="iconm-"]:before, li[class*=" iconm-"]:before {
+  text-indent: -2em;
+  text-align: center;
+}
+li[class^="iconm-"].iconm-large:before, li[class*=" iconm-"].iconm-large:before {
+  text-indent: -1.3333333333333333em;
+}
+/* Use the following CSS code if you want to have a class per icon */
+[class^="iconm-"]:before, [class*=" iconm-"]:before {
+	font-family: 'mako-extras';
+	font-style: normal;
+	speak: none;
+	font-weight: normal !important;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="iconm-"]:before, [class*=" iconm-"]:before {
+	font-family: 'mako-extras';
+	font-style: normal;
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+.iconm-bookmark:before {
+	content: "\e000";
+}
+.iconm-support:before {
+	content: "\22";
+}
+.iconm-support-active:before {
+	content: "\22";
+	color: #E35559; 
+}
+.iconm-support-inactive:before {
+	content: "\22";
+	color: #717173;
+}
+.iconm-batman:before {
+	content: "\31";
+}
+.iconm-arrow-left-right:before {
+	content: "\21";
+}
+.iconm-arrow-right:before {
+	content: "\23";
+}
+.iconm-arrow-left:before {
+	content: "\24";
+}
+.iconm-home-deploy:before {
+	content: "\27";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-firewall:before {
+	content: "\29";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-internet:before {
+	content: "\2a";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-mako:before {
+	content: "\2d";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-makos:before {
+	content: "\2e";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-password:before {
+	content: "\33";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-pci:before {
+	content: "\34";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-usage:before {
+	content: "\38";
+	float: left;
+	line-height: .5em;
+}
+.iconm-logo-controlscan:before {
+	content: "\39";
+}
+.iconm-logo-mako:before {
+	content: "\3a";
+}
+.iconm-logo-metcash:before {
+	content: "\3b";
+	color: #f7941f;
+}
+.iconm-logo-telecom:before {
+	content: "\3e";
+	color: #30677a;
+}
+.iconm-mako:before {
+	content: "\42";
+}
+.iconm-makos:before {
+	content: "\43";
+}
+.iconm-online-offline:before {
+	content: "\44";
+}
+.iconm-pci:before {
+	content: "\45";
+}
+.iconm-search:before {
+	content: "\46";
+}
+.iconm-vpn:before {
+	content: "\49";
+}
+.iconm-unsupported:before {
+	content: "\4b";
+}
+.iconm-home-diagnostics:before {
+	content: "\32";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-mako-add:before {
+	content: "\28";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-add-mako-company:before {
+	content: "\2b";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-configure:before {
+	content: "\25";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-new-company:before {
+	content: "\4c";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-add-user:before {
+	content: "\26";
+	float: left;
+	line-height: .5em;
+}
+.iconm-stop:before {
+	content: "\48";
+	color: #717173;
+}
+.iconm-firewall-block:before {
+	content: "\48";
+	color: #E35559;
+}
+.iconm-calendar:before {
+	content: "\4d";
+}
+.iconm-default-mode:before {
+	content: "\4e";
+	color: #3a87ad;
+}
+.iconm-home-search-company:before {
+	content: "\2f";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-search-user:before {
+	content: "\30";
+	float: left;
+	line-height: .5em;
+}
+.iconm-advanced-rules:before {
+	content: "\35";
+}
+.iconm-home-new-company-2:before {
+	content: "\36";
+	float: left;
+	line-height: .5em;
+}
+.iconm-home-mako-search:before {
+	content: "\3f";
+	float: left;
+	line-height: .5em;
+}
+.iconm-logo-poweredby:before {
+	content: "\3d";
+}
+.iconm-home-status:before {
+	content: "\2c";
+	float: left;
+	line-height: .5em;
+}
+.iconm-logo-phoenix:before {
+	content: "\3c";
+}
+.iconm-home-users:before {
+	content: "\37";
+	float: left;
+	line-height: .5em;
+}
