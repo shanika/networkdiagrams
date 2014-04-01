@@ -1,0 +1,1 @@
+Ext.data.JsonP.init({"guide":"<h1 id='init-section-header'>Header</h1>\n\n<p>init</p>\n","title":"Initializing Draw2D"});
