@@ -1,4 +1,4 @@
-$(window).load(function () {
+$(document).ready(function () {
 	$.initDiagram();
 });
 
@@ -7,12 +7,39 @@ $(window).load(function () {
 	$.canvas = null,
 	$.initDiagram = function () {	
 		$.canvas = new draw2d.Canvas("gfx_holder");
-	},
-	$.addRectangle = function(){
-		var rect = new draw2d.shape.basic.Rectangle();
-		rect.createPort('output');
-		rect.addCssClass('printer');
-		$.canvas.addFigure( rect,150,150);	
+		$('.add-printer-element').click (function () {
+			$.addPrinter();
+		});
+		$('.add-cloud-element').click (function () {
+			$.addCloud();
+		});
+		$('.add-desktop-pc-element').click (function () {
+			$.addDesttopPC();
+		});
+		$('.add-mako-6500-element').click (function () {
+			$.addMako6500();
+		});
+		$('.add-ftppos-element').click (function () {
+			$.addFTPos();
+		});
+		$('.add-internet-globe-element').click (function () {
+			$.addInternetGlobe();
+		});
+		$('.add-mako-7550-element').click (function () {
+			$.addMako7550();
+		});
+		$('.add-cms-server-element').click (function () {
+			$.addCMSServer();
+		});
+		$('.add-mobile-phone-element').click (function () {
+			$.addMobilePhone();
+		});
+		$('.add-network-switch-element').click (function () {
+			$.addNetworkSwitch();
+		});
+		$('.add-notebook-pc-element').click (function () {
+			$.addNotebookPC();
+		});
 	},
 	$.addPrinter = function () {
 		$.canvas.addFigure(new Printer(),150,150); 	
