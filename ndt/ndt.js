@@ -40,6 +40,9 @@ $(document).ready(function () {
 		$('.add-notebook-pc-element').click (function () {
 			$.addNotebookPC();
 		});
+		$('.add-room-element').click (function () {
+			$.addRoom();
+		});
 	},
 	$.addPrinter = function () {
 		$.canvas.addFigure(new Printer(),150,150); 	
@@ -73,6 +76,12 @@ $(document).ready(function () {
 	},
 	$.addNotebookPC = function () {
 		$.canvas.addFigure(new NotebookPC(),150,150);
+	},
+	$.addRoom = function () {
+		var rect =  new draw2d.shape.basic.Rectangle();
+		rect.setBackgroundColor("#ffffff");
+		rect.setDimension(250, 200);
+		$.canvas.addFigure(rect,100,100);
 	}
 })(jQuery);
 
