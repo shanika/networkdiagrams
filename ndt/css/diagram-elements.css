@@ -1,0 +1,47 @@
+.diagram-element {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: block;
+	width: 72px;
+	height: 72px;
+	line-height: 72px;
+	vertical-align: text-top;
+}
+.diagram-element.large {
+	width: 144px;
+	height: 144px;
+}
+.cloud {
+	background: url('../img/cloud.svg') no-repeat left top;
+}
+.pc {
+	background: url('../img/desktop-pc.svg') no-repeat left top;
+}
+.eftpos {
+	background: url('../img/eftpos.svg') no-repeat left top;
+}
+.internet {
+	background: url('../img/internet-globe.svg') no-repeat left top;
+}
+.mako-6500 {
+	background: url('../img/mako-6500.svg') no-repeat left top;
+}
+.mako-7550 {
+	background: url('../img/mako-7550.svg') no-repeat left top;
+}
+.mako-cms-server {
+	background: url('../img/mako-cms-server.svg') no-repeat left top;
+}
+.mobile-phone {
+	background: url('../img/mobile-phone.svg') no-repeat left top;
+}
+.network-switch {
+	background: url('../img/network-switch.svg') no-repeat left top;
+}
+.notebook-pc {
+	background: url('../img/notebook-pc.svg') no-repeat left top;
+}
+.printer {
+	background: url('../img/printer.svg') no-repeat left top;
+}
