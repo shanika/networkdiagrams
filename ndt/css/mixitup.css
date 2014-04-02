@@ -6,6 +6,10 @@
 	margin-right: 6px;
 	text-align: left;
 }
+.mixit-list .mix.visible{
+	display: inline-block;
+	opacity: 1;
+}
 .mixit-list {
 	list-style-type: none;
 	text-align: justify;
