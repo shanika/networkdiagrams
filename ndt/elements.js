@@ -102,8 +102,8 @@ Mako6500 = draw2d.SetFigure.extend({
     createSet: function(){
         var set = this._super();
         set.push( this.canvas.paper.image("img/mako-6500.svg",0,0,128,128));
-	this.createPort('input', new draw2d.layout.locator.TopLocator(this));
-	this.createPort('output', new draw2d.layout.locator.CenterLocator(this));
+	this.createPort('input', new draw2d.layout.locator.CenterLocator(this));
+	this.createPort('output', new newdraw2d.layout.locator.BottomLocator(this));
 	$.extend( this.getOutputPort(0), {} );
 	this.setResizeable(false);
         return set;
