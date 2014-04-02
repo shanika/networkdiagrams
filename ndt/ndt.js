@@ -9,10 +9,14 @@ $(window).load(function () {
 		$.canvas = new draw2d.Canvas("gfx_holder");
 	},
 	$.addRectangle = function(){
-		$.canvas.addFigure( new draw2d.shape.basic.Rectangle(),150,150);	
+		var rect = new draw2d.shape.basic.Rectangle();
+		rect.createPort('output');
+		$.canvas.addFigure( rect,150,150);	
 	}
 	,
 	$.addPrinter = function () {
-			
+		var printer = new draw2d.shape.widget.Widget();
+		// add Class
+		$.canvas.addFigure(printer,150,150); 	
 	}
 })(jQuery);
