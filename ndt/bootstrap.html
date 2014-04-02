@@ -221,8 +221,7 @@
 							<h2>Diagram</h2>                           
 						</header>
 						<div>
-							<div class="inner-spacer widget-content-padding" style="height:400px;">
-							<i class="diagram-element pc"></i>
+							<div class="inner-spacer widget-content-padding" style="height:800px;">
 							<div id="gfx_holder"  style="width:100%; height:100%;-webkit-tap-highlight-color: rgba(0,0,0,0); "> 
 							</div>	
 							</div>
@@ -389,7 +388,7 @@ Copyright © Mako Networks Limited 2001-2013<i class="iconm-logo-poweredby" styl
 			<div class="thumbnail">
 			      <i class="diagram-element pc large"></i>
 			      <h4>PC</h4>
-			      <a href="javascript:void(0)" data-dismiss="modal" class="btn btn-primary add-pc-element"><i class="icon-plus-sign"></i> Add device</a>
+			      <a href="javascript:void(0)" data-dismiss="modal" class="btn btn-primary add-desktop-pc-element"><i class="icon-plus-sign"></i> Add device</a>
 			</div>
 		</li>
 		<li class="mix visible">
@@ -438,7 +437,28 @@ Copyright © Mako Networks Limited 2001-2013<i class="iconm-logo-poweredby" styl
 			<div class="thumbnail">
 			      <i class="diagram-element mako-cms-server large"></i>
 			      <h4>Mako CMS system</h4>
-			      <a href="javascript:void(0)" data-dismiss="modal" class="btn btn-primary add-mako-cms-server-element"><i class="icon-plus-sign"></i> Add device</a>
+			      <a href="javascript:void(0)" data-dismiss="modal" class="btn btn-primary add-cms-server-element"><i class="icon-plus-sign"></i> Add device</a>
+			</div>
+		</li>
+		<li class="mix visible">
+			<div class="thumbnail">
+			      <i class="diagram-element mobile-phone large"></i>
+			      <h4>Mobile</h4>
+			      <a href="javascript:void(0)" data-dismiss="modal" class="btn btn-primary add-mobile-phone-element"><i class="icon-plus-sign"></i> Add device</a>
+			</div>
+		</li>
+		<li class="mix visible">
+			<div class="thumbnail">
+			      <i class="diagram-element network-switch large"></i>
+			      <h4>Network switch</h4>
+			      <a href="javascript:void(0)" data-dismiss="modal" class="btn btn-primary add-network-switch-element"><i class="icon-plus-sign"></i> Add device</a>
+			</div>
+		</li>
+		<li class="mix visible">
+			<div class="thumbnail">
+			      <i class="diagram-element notebook-pc large"></i>
+			      <h4>Notebook PC</h4>
+			      <a href="javascript:void(0)" data-dismiss="modal" class="btn btn-primary add-notebook-pc-element"><i class="icon-plus-sign"></i> Add device</a>
 			</div>
 		</li>
 	</ul>
@@ -520,23 +540,7 @@ hover_delay_close: 5000
 <script type="text/javascript">	
 	$(function(){
 		$('#known-devices').mixitup();
-	});		
-
-<!-- REQUIRED: Form validation plugin -->
-//<script src="js/include/jqBootstrapValidation-1.3.7.js"></script><!--
-<script>
-$(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
-</script>-->
-
-<script>
-$('#container').css('min-height', $(window).height()-120 + 'px');
-$('#makocontent').css('min-height', $('#container').height()-15 + 'px');
-</script>
-<script type="text/javascript">
-$(window).resize(function() {
-$('#container').css('min-height', $(window).height()-40 + 'px');
-$('#makocontent').css('min-height', $(window).height()-252 + 'px');
-});
+	});
 </script>
 
 <!--DRAW.JS-->

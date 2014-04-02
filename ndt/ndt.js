@@ -19,7 +19,7 @@ $(document).ready(function () {
 		$('.add-mako-6500-element').click (function () {
 			$.addMako6500();
 		});
-		$('.add-ftppos-element').click (function () {
+		$('.add-eftpos-element').click (function () {
 			$.addFTPos();
 		});
 		$('.add-internet-globe-element').click (function () {
